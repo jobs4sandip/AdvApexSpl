@@ -2,7 +2,7 @@
  * @name AnnouncementQueueable
  * @description This class posts Chatter Announcements
 **/
-public class AnnouncementQueueable implements Queueable{
+public class AnnouncementQueueable implements Queueable {
 
     public List<ConnectApi.AnnouncementInput> toPost;
 
